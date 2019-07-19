@@ -1,0 +1,44 @@
+#main {
+  font-size: 40px;
+  color: yellow;
+  border: 2px solid gold
+}
+
+#text{
+  color:yellow
+}
+
+#footer {
+  color: blue;
+  font-size: 60px;
+  background-color: gold
+}
+
+.class {
+  margin: 20px 10px 10px 20px;
+}
+
+.glow {
+  font-size: 80px;
+  color: blue;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
